@@ -1,0 +1,13 @@
+.Section {
+  margin-bottom: 5.6rem;
+}
+
+.Section:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .Section {
+    margin-bottom: 7rem;
+  }
+}

@@ -1,0 +1,9 @@
+.App-content {
+  padding: 1.2rem;
+}
+
+@media (min-width: 1024px) {
+  .App-content {
+    padding: 2.5rem 12rem;
+  }
+}

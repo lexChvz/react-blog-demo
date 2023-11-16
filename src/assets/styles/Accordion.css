@@ -1,0 +1,25 @@
+.Accordion {
+  box-shadow: none;
+}
+
+.Accordion-item {
+  background-color: #fff;
+  border-bottom: 0.1rem solid #777;
+}
+
+.Accordion .accordion-button {
+  font-size: 1.6rem;
+}
+
+.Accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.Accordion .accordion-button:not(.collapsed) {
+  background-color: #fff;
+  border: none;
+}
+
+.Accordion .accordion-body {
+  font-size: 1.2rem;
+}

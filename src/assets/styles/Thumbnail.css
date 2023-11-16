@@ -1,0 +1,44 @@
+.Thumbnail {
+  margin-bottom: 2.2rem;
+}
+
+.Thumbnail-image-wrapper {
+  position: relative;
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+
+.Thumbnail-image-wrapper img {
+  border-radius: inherit;
+}
+
+.Thumbnail-category-wrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #f2f2f2;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  background: #ca2020;
+}
+
+.Thumbnail-category-wrapper p,
+.Thumbnail-title {
+  margin: 0;
+}
+
+.Thumbnail-title {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .Thumbnail-category-wrapper {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}

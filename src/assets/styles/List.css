@@ -1,0 +1,47 @@
+.List-item {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.List-bullet {
+  width: 2.4rem;
+}
+
+.List-details {
+  margin-left: 0.5rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.List-link {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #181d2f;
+}
+
+.List-text {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #626262;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 1024px) {
+  .List-bullet {
+    width: 3.6rem;
+  }
+
+  .List-link,
+  .List-text {
+    font-size: 1.6rem;
+  }
+
+  .List-text {
+    overflow: visible;
+    -webkit-box-orient: unset;
+  }
+}
